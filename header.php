@@ -61,7 +61,12 @@ if (akina_option('akina_meta') == true) {
 <meta name="description" content="<?php echo $description; ?>" />
 <meta name="keywords" content="<?php echo $keywords; ?>" />
 <?php } ?>
-<link rel="shortcut icon" href="<?php echo akina_option('favicon_link', ''); ?>"/> 
+<link rel="shortcut icon" href="<?php echo akina_option('favicon_link', ''); ?>"/>
+
+
+<link rel="stylesheet" href="/live2d/css/live2d.css" />
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+
 <meta name="theme-color" content="#31363b">
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <?php wp_head(); ?>

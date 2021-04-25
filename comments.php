@@ -59,7 +59,7 @@
 						'title_reply' => '',
 						'title_reply_to' => '<div class="graybar"><i class="fa fa-comments-o"></i>' . __('Leave a Reply to', 'sakura') . ' %s' . '</div>',
 						'cancel_reply_link' => __('Cancel Reply', 'sakura'),
-						'label_submit' => __('BiuBiuBiu~', 'sakura'),
+						'label_submit' => __('发表评论', 'sakura'),
 						'comment_field' => '<p style="font-style:italic"><a href="https://segmentfault.com/markdown" target="_blank"><i class="iconfont icon-markdown" style="color:#000"></i></a> Markdown Supported while <i class="fa fa-code" aria-hidden="true"></i> Forbidden</p><div class="comment-textarea"><textarea placeholder="' . __("You are a surprise that I will only meet once in my life", "sakura") . ' ..." name="comment" class="commentbody" id="comment" rows="5" tabindex="4"></textarea><label class="input-label">' . __("You are a surprise that I will only meet once in my life", "sakura") . ' ...</label></div>
                         <div id="upload-img-show"></div>
                         <!--插入表情面版-->
