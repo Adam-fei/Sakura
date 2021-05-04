@@ -174,9 +174,11 @@
 <script type="text/javascript" src="/live2d/js/live2d.js"></script>
 <script type="text/javascript" src="/live2d/js/message.js"></script>
 <script type="text/javascript">
-    var index = Math.ceil(Math.random()*37)
-        console.log('yifei.adam.com + ' + index)
-        loadlive2d("live2d", "/live2d/model/pio/model_"+index+".json");
+    // 注释随机换装, 10 号装扮为魔女
+    // var index = Math.ceil(Math.random()*37)
+        // console.log('yifei.adam.com + ' + index)
+        // loadlive2d("live2d", "/live2d/model/pio/model_"+index+".json");
+        loadlive2d("live2d", "/live2d/model/pio/model_10.json"); //8: 圣诞 13: winter
 </script>
 
 </body>
